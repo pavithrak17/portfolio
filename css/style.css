@@ -1,0 +1,185 @@
+/* The :root pseudo-class represents the html element */
+:root {
+    --main-blue: #4980ff;
+    --dark-blue: #28293E;
+    --light-grey:#EFEFEF;
+}
+
+body {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.container {
+    /* border: 2px solid yellow; */
+    max-width :940px;
+    margin: auto;
+}
+
+.blue-bg{
+    background-color: var(--dark-blue);
+    color:white;
+}
+
+.button{
+    background-color: var(--main-blue);
+    padding:12px 4px;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: purple;
+}
+
+section {
+    padding: 40px 0;   
+}
+
+hr {
+    width: 70px;
+    height:8px;
+    background-color: var(--main-blue);
+    margin: 16px auto 32px auto ;
+    border: none;
+}
+section .section-title {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+header {
+    text-align:center;
+    padding: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header li {
+    display:inline;
+}
+
+header a {
+    color: white;
+    text-decoration:none ;
+    margin :0 22px;
+}
+
+section img#profile {
+    border-radius: 270px;
+    width:263px;
+}
+section#hero {
+    padding-top: 68px;
+    padding-bottom:58px;
+}
+
+section#hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom:0;
+    letter-spacing: -2px;
+}
+
+section#hero h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--main-blue);
+    margin-bottom:20px;
+    letter-spacing: 2px;
+}
+
+section#hero p {
+    max-width: 465px;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+section#hero ul {
+    padding:0;
+}
+
+section#hero li {
+    display:inline;
+    margin:0 6px;
+}
+
+section#hero li img{
+width:37px;
+}
+section#skillset .skills {
+    width: 700px;
+    margin: auto;
+}
+
+section#skillset span {
+    display: inline-block;
+    background-color: var(--light-grey);
+    width: 146px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 72px;
+    margin: 8px ;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+section#experience article {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 30px 0;
+}
+
+section#experience article:last-of-type {
+    border-bottom: none;
+}
+
+section#experience article:first-of-type {
+    padding-top: 0;
+}
+
+section#experience article h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section#experience article p {
+   margin :0;
+}
+
+section#contact {
+    background-color: var(--light-grey);
+}
+
+section#contact a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+section#contact a img {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+footer {
+    font-size: 16px;
+    background-color: var(--light-grey);
+}
+
+footer .container {
+    border-top: 1px solid black;
+    padding: 24px 0;
+}
